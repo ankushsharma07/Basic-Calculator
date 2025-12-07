@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dcdcdc; 
+    height: 100vh;
+}
+
+.headline {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    ;
+}
+.headline:hover {
+    color: red;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.Calculator {
+    width: 400px;
+    padding: 20px;
+    background: #f2d3d3;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
+    margin: 100px auto;
+    text-align: center;
+    height:63%;
+
+
+}
+
+.output-box{
+    width: 90% auto;
+    height: 110px;
+    background:  white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px; 
+    font-size: 24px;
+    line-height: 100px;
+    color: #c76a6a;
+    margin-bottom: 50px;
+    box-shadow:black,
+              
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+    
+}
+
+.buttons button {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.2),
+                -3px -3px 6px rgba(255,255,255,0.8);
+   
+}
+
+.buttons button:active {
+    transform: translateY(0px) scale(0.95);
+    
+}
+.op {
+    background: black;
+    color: white;
+}
+
+.eq {
+    background: orange;
+    color: white;
+}
+
