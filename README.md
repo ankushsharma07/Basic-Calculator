@@ -41,9 +41,6 @@ Basic-Calculator/
 ├── style.css
 ├── script.js
 │
-├── assets/
-│   └── screenshot.png   (optional)
-│
 └── README.md
 # Basic Calculator 🧮
 
@@ -89,3 +86,4 @@ Basic-Calculator/
 ├── script.js
 │
 └── README.md
+
